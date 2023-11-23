@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Z-JSON-CONSOLIDADO" tests="185" time="109.459">
+  <testsuite name="accountingtermfinan / HABA" id="6c9da81c-3b76-453b-a4f9-4ad86d81840a" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.621">
+    <testcase name="EL STATUS RESPONDE 200" time="0.621" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="accountingtermfinan / HABB" id="187a3140-fd9b-46e3-aa02-d12e820a9195" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.393">
+    <testcase name="EL STATUS RESPONDE 200" time="0.393" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="accountinquiry / B41A" id="2f193596-4357-40a3-81ce-e210031efb6a" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.376">
+    <testcase name="EL STATUS RESPONDE 200" time="0.376" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: accountinquiry / B41A.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:3).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="accountinquiry / B480" id="ffa9df58-503a-4139-95c0-1f9fe9c2928d" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.303">
+    <testcase name="EL STATUS RESPONDE 200" time="0.303" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: accountinquiry / B480.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:4).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="accountinquiry / BKXB" id="9f6caea3-183b-4e10-b5ff-5a641d11af15" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.374">
+    <testcase name="EL STATUS RESPONDE 200" time="0.374" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: accountinquiry / BKXB.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:5).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="activitycategoryspecial / WP46" id="91dc3e61-547c-4df3-b764-3f4f04f1b761" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.306">
+    <testcase name="EL STATUS RESPONDE 200" time="0.306" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="activitycategoryspecial / WP48" id="102e267f-0a7c-45c3-ab11-cf6839918d41" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.318">
+    <testcase name="EL STATUS RESPONDE 200" time="0.318" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="querymovements / B402 IP BANCO" id="ff5c6ee4-1331-4673-9259-5c44b5db7c49" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.301">
+    <testcase name="EL STATUS RESPONDE 200" time="0.301" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="querymovements / B401 MODIFICADO NVO PARAMETRO" id="60fdd1da-43b7-47ef-bf15-65fd60817dd6" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.431">
+    <testcase name="EL STATUS RESPONDE 200" time="0.431" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="querymovements / queryBalanceByAccountTF" id="096ad78d-b495-4d82-852c-bbb41e56a60c" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.299">
+    <testcase name="EL STATUS RESPONDE 200" time="0.299" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="passivetermfinan / BG61  cheque" id="40e4b0d7-d59d-4a04-be1e-eb71c943821a" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.339">
+    <testcase name="EL STATUS RESPONDE 200" time="0.339" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="passivetermfinan / BQ10" id="fe3a7e32-743a-4e36-92ad-4408e5b215bc" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.328">
+    <testcase name="EL STATUS RESPONDE 200" time="0.328" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="passivetermfinan / BV50" id="80b609ad-e4e7-4060-bce8-6b5f2017315b" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.192">
+    <testcase name="EL STATUS RESPONDE 200" time="0.192" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: passivetermfinan / BV50.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:13).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="passivetermfinan / BQ11" id="01b411bd-af7a-41a2-8d4b-9bc021657191" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.301">
+    <testcase name="EL STATUS RESPONDE 200" time="0.301" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="passivetermfinan / B533" id="568863cd-a7e3-415b-a827-8dff52978add" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.312">
+    <testcase name="EL STATUS RESPONDE 200" time="0.312" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="passivetermfinan / BGV3" id="2e338217-f61e-4c2b-8792-95b0a6258cee" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.360">
+    <testcase name="EL STATUS RESPONDE 200" time="0.360" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="passivetermfinan / BGV3 Copy" id="9e548f17-a35b-4f7d-8840-fdf786d0cde1" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.303">
+    <testcase name="EL STATUS RESPONDE 200" time="0.303" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="passivetermfinan / B581" id="4c91614b-4f5d-4c01-bac5-7952a2f306a2" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.302">
+    <testcase name="EL STATUS RESPONDE 200" time="0.302" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="checkinquiry / BKV4" id="510c3bbe-8d0f-4a8e-8076-b75ad9602378" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.299">
+    <testcase name="EL STATUS RESPONDE 200" time="0.299" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="checkinquiry / BQ05" id="008ae61d-b05d-40f2-bbb0-b49a94ff0443" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.301">
+    <testcase name="EL STATUS RESPONDE 200" time="0.301" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="checkinquiry / BKV1" id="9ed70e67-cc12-47ed-88d1-8a98e7f82d2c" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.298">
+    <testcase name="EL STATUS RESPONDE 200" time="0.298" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="checkinquiry / BKXA" id="1844c87e-30b5-4f4e-a5c5-9151a4b11397" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.297">
+    <testcase name="EL STATUS RESPONDE 200" time="0.297" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="exchangeinter / EXRG" id="c62f97ad-3f9f-4fda-818a-1db25558071b" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.310">
+    <testcase name="EL STATUS RESPONDE 200" time="0.310" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="exchangeinter / EXIC - menudeo" id="76260576-7985-448a-b472-095ebfe98044" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.357">
+    <testcase name="EL STATUS RESPONDE 200" time="0.357" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="exchangeinter / EXRI" id="873ab34e-f030-4a3e-8d7a-5af797c0a033" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.309">
+    <testcase name="EL STATUS RESPONDE 200" time="0.309" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="exchangeinter / EXCV" id="ac1dd83b-8408-46b3-b591-7b3804929943" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.331">
+    <testcase name="EL STATUS RESPONDE 200" time="0.331" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="exchangeinter / EXID" id="bbf5f840-7ab6-42bc-bb15-5bfbd660aabe" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.387">
+    <testcase name="EL STATUS RESPONDE 200" time="0.387" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="digitalaccountopening / B030" id="2dde46b6-8d6c-4dc9-afef-eaf6eb3a1f11" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.304">
+    <testcase name="EL STATUS RESPONDE 200" time="0.304" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="digitalaccountopening / B032" id="24e288a1-6318-4093-8301-db82cecd3382" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.372">
+    <testcase name="EL STATUS RESPONDE 200" time="0.372" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="maintenancerelatedcom / WP62" id="1e19a14c-32af-432b-b630-e83c20fc8559" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.391">
+    <testcase name="EL STATUS RESPONDE 200" time="0.391" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="maintenancerelatedcom / PE98" id="6560940a-20f4-499a-8a6b-5b41f42497db" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.389">
+    <testcase name="EL STATUS RESPONDE 200" time="0.389" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="maintenancerelatedcom / PE81" id="95282c75-7a2c-463e-8e16-781fd5b81ff7" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.399">
+    <testcase name="EL STATUS RESPONDE 200" time="0.399" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="maintenancerelatedcom / PE94" id="7b91e0c8-b848-4065-ba27-d4c6cef06f1d" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.382">
+    <testcase name="EL STATUS RESPONDE 200" time="0.382" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="maintenancerelatedcom / PEA1" id="75521a7d-536f-4b8a-a75d-2f5396a69fba" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.388">
+    <testcase name="EL STATUS RESPONDE 200" time="0.388" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="maintenancerelatedcom / PEA7" id="dce4880b-2641-4e49-b0e7-903023be78df" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.298">
+    <testcase name="EL STATUS RESPONDE 200" time="0.298" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="maintenancerelatedcom / PEA8" id="35759e6b-a3c6-4eb7-ad09-557127aec2cb" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.298">
+    <testcase name="EL STATUS RESPONDE 200" time="0.298" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="mtdatcomplmleglpers / PE53" id="6cafcb6f-b118-4d83-934a-b9e2e704c7db" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.484">
+    <testcase name="EL STATUS RESPONDE 200" time="0.484" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="mtdatcomplmleglpers / PE54" id="316d955e-0e16-4467-8943-13f6580a5697" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.389">
+    <testcase name="EL STATUS RESPONDE 200" time="0.389" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="mtdatcomplmleglpers / PE55" id="7af9dea7-9eb0-4612-badf-b4aa5e0122c3" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.335">
+    <testcase name="EL STATUS RESPONDE 200" time="0.335" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="mtdatcomplmleglpers / PE58" id="1fa3f3a0-aea8-43cb-97e6-f95483314b3b" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.305">
+    <testcase name="EL STATUS RESPONDE 200" time="0.305" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="mtdatcomplmleglpers / PE61" id="711419bf-e956-46b7-bffb-e7f68eb60915" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.328">
+    <testcase name="EL STATUS RESPONDE 200" time="0.328" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="mtdatcomplmleglpers / PE67" id="27ae4fa8-7df6-4be3-bae0-99c418a4af59" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.309">
+    <testcase name="EL STATUS RESPONDE 200" time="0.309" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="legalclientdomicile / PE60" id="018856eb-668f-4515-ad1f-92cf1a489207" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.374">
+    <testcase name="EL STATUS RESPONDE 200" time="0.374" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="legalclientdomicile / PE62" id="94bce1ec-2e1c-400f-aac5-425b849d4177" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.388">
+    <testcase name="EL STATUS RESPONDE 200" time="0.388" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="basiccustomerdata / PE63 NATURAL" id="e5a58d87-075c-4eef-84fd-7d8ac0d63d14" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.336">
+    <testcase name="EL STATUS RESPONDE 200" time="0.336" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="basiccustomerdata / PE68" id="aacff1a1-5d88-44b5-b714-892b84ee558c" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.303">
+    <testcase name="EL STATUS RESPONDE 200" time="0.303" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="basiccustomerdata / PE72 JURIDICO" id="48aac2d9-7fba-40d7-95e4-5712d6bfca7e" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.317">
+    <testcase name="EL STATUS RESPONDE 200" time="0.317" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="cardcontractcurrency / MP4Z" id="45950f0b-1feb-40f3-b483-70b9ef02cd49" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.409">
+    <testcase name="EL STATUS RESPONDE 200" time="0.409" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="cardcontractcurrency / MPK3" id="2db9647b-e0c0-4cd5-9982-bc633261da39" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.307">
+    <testcase name="EL STATUS RESPONDE 200" time="0.307" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="cardcontractcurrency / MP4O" id="dfcc20e7-a25a-4263-80bf-2c1d33862980" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.302">
+    <testcase name="EL STATUS RESPONDE 200" time="0.302" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="checkcarddetails / MP8X" id="f1997d5c-bc62-454f-b4a8-7319bd41cd84" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.329">
+    <testcase name="EL STATUS RESPONDE 200" time="0.329" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="checkcarddetails / MPCD" id="afe0a4a6-4216-40d9-aea0-635d9886000d" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.318">
+    <testcase name="EL STATUS RESPONDE 200" time="0.318" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="checkcarddetails / MP5C" id="ba4059b9-b54e-468b-a032-30173a9679c7" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.328">
+    <testcase name="EL STATUS RESPONDE 200" time="0.328" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="checkcarddetails / MPK2" id="10c30ca0-a8fb-4cf7-b1b5-33059ae0b0a5" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.309">
+    <testcase name="EL STATUS RESPONDE 200" time="0.309" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="checkcarddetails / Borrar" id="6c289931-125b-4f7d-a83b-4f19316aaef1" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: runtime:extensions~request: request url is empty
+    at Requester.request (/home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/postman-runtime/lib/requester/requester.js:421:26)
+    at /home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/postman-runtime/lib/runner/extensions/http-request.command.js:156:37
+    at Requester.create (/home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/postman-runtime/lib/requester/requester.js:508:16)
+    at RequesterPool.create (/home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/postman-runtime/lib/requester/requester-pool.js:67:22)
+    at /home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/postman-runtime/lib/runner/extensions/http-request.command.js:105:32
+    at /home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/async/dist/async.js:251:13
+    at wrapper (/home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/async/dist/async.js:271:20)
+    at replenish (/home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/async/dist/async.js:441:29)
+    at /home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/async/dist/async.js:451:13
+    at eachOfLimit$1 (/home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/async/dist/async.js:477:34)
+    at awaitable (/home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/async/dist/async.js:211:32)
+    at eachOfSeries (/home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/async/dist/async.js:813:16)
+    at awaitable (/home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/async/dist/async.js:211:32)
+    at _asyncMap (/home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/async/dist/async.js:244:16)
+    at mapSeries (/home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/async/dist/async.js:837:16)
+    at awaitable (/home/sf020/.nvm/versions/node/v18.18.2/lib/node_modules/newman/node_modules/async/dist/async.js:211:32)
+
+---
+]]></system-err>
+    <testcase name="EL STATUS RESPONDE 200" time="0.000" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: checkcarddetails / Borrar.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:55).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="checkcarddetails / MPV0" id="60464aae-0211-46bf-ab82-b5a7daadc8f0" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.311">
+    <testcase name="EL STATUS RESPONDE 200" time="0.311" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="interbankp2p / VXP2 CONSULTA" id="05e91d5f-9f28-4d6e-81b7-3b75270af81e" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.308">
+    <testcase name="EL STATUS RESPONDE 200" time="0.308" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="customerkeyphone / VXAF CONSULTA" id="ae8e45aa-4f78-497f-8eeb-a5a07951218b" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.314">
+    <testcase name="EL STATUS RESPONDE 200" time="0.314" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="settlementsmaintenance / PE52" id="5ea8b302-641d-4f14-a641-24bdec0aad34" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.299">
+    <testcase name="EL STATUS RESPONDE 200" time="0.299" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="settlementsmaintenance / PE80" id="8c897793-6b59-43d9-9c20-197bf33d59d2" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.376">
+    <testcase name="EL STATUS RESPONDE 200" time="0.376" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="settlementsmaintenance / PE88" id="c8c759e7-1ddc-4b71-af26-50f80574d2c0" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.384">
+    <testcase name="EL STATUS RESPONDE 200" time="0.384" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="settlementsmaintenance / PE97" id="fa525029-d75a-401d-b9ad-af6e5fa7a4f7" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.306">
+    <testcase name="EL STATUS RESPONDE 200" time="0.306" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="settlementsmaintenance / PE90" id="5d55d0d2-98f2-4cc8-bd13-7ad623c8f785" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.722">
+    <testcase name="EL STATUS RESPONDE 200" time="0.722" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="settlementsmaintenance / PEV3" id="841e389c-3f84-4c01-ba97-3be732f7d727" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.297">
+    <testcase name="EL STATUS RESPONDE 200" time="0.297" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="normativecompaccounts / B036" id="aea39c0c-6a3c-47be-8e39-43566b92cfea" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.346">
+    <testcase name="EL STATUS RESPONDE 200" time="0.346" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="customerrelationship / PE84" id="4ebb84b2-c350-409e-b846-eb374d356d60" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.429">
+    <testcase name="EL STATUS RESPONDE 200" time="0.429" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="preassignedcard / VPTF" id="deb71078-3377-4dfe-8a7b-3e925a76086c" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.359">
+    <testcase name="EL STATUS RESPONDE 200" time="0.359" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="collectiontermfinan / SRPI" id="194a75b4-7d2e-4c76-ab0c-9a67c0c6d2b9" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="31.008">
+    <testcase name="EL STATUS RESPONDE 200" time="31.008" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 503">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: collectiontermfinan / SRPI.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 503.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 503
+   at Object.eval sandbox-script.js:1:68).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="checkdataaccount / B731" id="b397a4ad-3a4a-405b-9432-1e70b78c50da" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="2.318">
+    <testcase name="EL STATUS RESPONDE 200" time="2.318" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 500">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: checkdataaccount / B731.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 500.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 500
+   at Object.eval sandbox-script.js:1:69).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="checkdataaccount / B532" id="bda33acf-1bf3-4547-a1d3-9ad5a8b962c2" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.321">
+    <testcase name="EL STATUS RESPONDE 200" time="0.321" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="checkdataaccount / B793" id="84e26ea7-a615-427c-af7a-388a7074789b" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.302">
+    <testcase name="EL STATUS RESPONDE 200" time="0.302" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="architecturetermfinan / QGBF" id="62a3e0f7-e2dc-4124-aa19-7d20c97ee387" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.396">
+    <testcase name="EL STATUS RESPONDE 200" time="0.396" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="architecturetermfinan / QG81" id="dc34f40b-d21a-4695-9fb2-a9285312f216" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.385">
+    <testcase name="EL STATUS RESPONDE 200" time="0.385" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="architecturetermfinan / QG83" id="44c10893-9272-45ac-9083-2c79003f9302" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.302">
+    <testcase name="EL STATUS RESPONDE 200" time="0.302" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="architecturetermfinan / QG00" id="ef5ec9c1-65be-4308-bbf1-d2aa5e2aa1b1" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.299">
+    <testcase name="EL STATUS RESPONDE 200" time="0.299" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="architecturetermfinan / QG01" id="2f04cfcb-8821-488a-9091-a7f9f3f409a5" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.302">
+    <testcase name="EL STATUS RESPONDE 200" time="0.302" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="checkcardbalance / MPK7" id="3581238f-ab6a-4bf9-a95f-1f46ba9ff78d" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.303">
+    <testcase name="EL STATUS RESPONDE 200" time="0.303" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="checkcardbalance / MP5D" id="f34f32f5-1773-41b6-ae82-12e6e3413a9f" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.296">
+    <testcase name="EL STATUS RESPONDE 200" time="0.296" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="checkcardbalance / MPL1" id="24036b0f-50a4-431f-9093-8568a6c5737c" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.318">
+    <testcase name="EL STATUS RESPONDE 200" time="0.318" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="cardmanagment / MP5A" id="1d03cfe0-02af-44c8-8652-cbb1d6213cc5" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.372">
+    <testcase name="EL STATUS RESPONDE 200" time="0.372" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="cardmanagment / MPB8" id="7280ccda-7c10-4781-8c23-99168012a3ad" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.339">
+    <testcase name="EL STATUS RESPONDE 200" time="0.339" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="cardmanagment / MPAN" id="e50275e6-58fb-44a1-b393-b16993933cf7" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.412">
+    <testcase name="EL STATUS RESPONDE 200" time="0.412" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="cardmanagment / MPAL" id="bc3b9cf5-625a-4758-a76e-db06517402e1" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.394">
+    <testcase name="EL STATUS RESPONDE 200" time="0.394" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="cardmanagment / MPV8" id="4fbf7cbf-c044-4b09-8589-05076dabb799" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.392">
+    <testcase name="EL STATUS RESPONDE 200" time="0.392" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="consuserviaccou / B421" id="482ca3ac-c0fb-4742-94b9-c21545b39720" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.501">
+    <testcase name="EL STATUS RESPONDE 200" time="0.501" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="userconsult / PF58" id="234543c1-f9f4-4b47-babd-1db9bef5ca9f" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.400">
+    <testcase name="EL STATUS RESPONDE 200" time="0.400" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="userconsult / PF57" id="645a0f8f-fd9d-43ea-8c71-2b3fb3461d09" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.500">
+    <testcase name="EL STATUS RESPONDE 200" time="0.500" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="userconsult / PEF2" id="18c544bd-4016-44b8-a6fe-5e1105702bc8" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.399">
+    <testcase name="EL STATUS RESPONDE 200" time="0.399" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="complementdataconsult / PE65" id="9638ec1e-f50d-4a57-86f2-31ce43289550" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.502">
+    <testcase name="EL STATUS RESPONDE 200" time="0.502" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="complementdataconsult / PE48" id="4f32318c-520f-4110-9d15-4fcf969c0912" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.391">
+    <testcase name="EL STATUS RESPONDE 200" time="0.391" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="complementdataconsult / PE59" id="9d5bd17c-0fdf-4a73-970f-41896628ad0e" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.505">
+    <testcase name="EL STATUS RESPONDE 200" time="0.505" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="complementdataconsult / PE50" id="529a0b1e-e809-4a85-b930-2bbfdbd6a0ba" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.396">
+    <testcase name="EL STATUS RESPONDE 200" time="0.396" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="complementdataconsult / PE51" id="20c7dd0e-1093-4c34-a96e-2d2323bf19ff" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.396">
+    <testcase name="EL STATUS RESPONDE 200" time="0.396" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="complementdataconsult / PE85" id="60b4ce0e-7340-441b-b036-3ae21eab668d" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.389">
+    <testcase name="EL STATUS RESPONDE 200" time="0.389" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="maintenancebankrefer / PEM2" id="8b68e0d1-4d4c-48a9-a786-175684265fec" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.309">
+    <testcase name="EL STATUS RESPONDE 200" time="0.309" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="maintenancebankrefer / PEM1" id="0f4c1bac-7b33-4588-ab70-bd7f722dfd2d" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.306">
+    <testcase name="EL STATUS RESPONDE 200" time="0.306" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="maintenancebankrefer / PE75" id="486fa9be-4a82-4107-939a-07b3ee3d6875" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.582">
+    <testcase name="EL STATUS RESPONDE 200" time="0.582" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="maintenancebankrefer / PE83" id="1dd5e52b-2fac-4d26-8d78-d61a4bb26877" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.311">
+    <testcase name="EL STATUS RESPONDE 200" time="0.311" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="customerphone / PE74" id="0e967cdc-3f30-4965-9a7f-bf2a46a74421" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.348">
+    <testcase name="EL STATUS RESPONDE 200" time="0.348" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="customerphone / PE46" id="6facd027-5ba3-4d2d-b827-07fd9a5ba551" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.397">
+    <testcase name="EL STATUS RESPONDE 200" time="0.397" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="peprelationship / WP65" id="2765f2c5-d0bd-4863-89f2-d3e266c73e8c" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.309">
+    <testcase name="EL STATUS RESPONDE 200" time="0.309" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="peprelationship / WP43" id="a6a3c4f2-d1a5-43bf-b045-6a9d02133d6e" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.486">
+    <testcase name="EL STATUS RESPONDE 200" time="0.486" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="peprelationship / WP50" id="78e03bd7-55e9-46d2-8944-c288df90e340" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.393">
+    <testcase name="EL STATUS RESPONDE 200" time="0.393" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="peprelationship / WP64" id="784a8bbf-b4d9-4fb2-a12e-7d1f0b25bd75" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.391">
+    <testcase name="EL STATUS RESPONDE 200" time="0.391" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="peprelationship / WP42" id="7da0795c-d495-46d0-892d-5e62eff293e8" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.394">
+    <testcase name="EL STATUS RESPONDE 200" time="0.394" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="peprelationship / WP42 Copy" id="072f8805-d56b-42ec-81ee-c85a36910579" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.496">
+    <testcase name="EL STATUS RESPONDE 200" time="0.496" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="peprelationship / WP49" id="b3d44bf6-133a-4657-b8ba-6585e6dea4b7" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.319">
+    <testcase name="EL STATUS RESPONDE 200" time="0.319" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="peprelationship / WP49 Copy" id="9d408115-d4e2-43f8-8779-7f838291d150" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.471">
+    <testcase name="EL STATUS RESPONDE 200" time="0.471" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="peprelationship / WP52" id="997fa5e0-9d5c-4285-b950-a056bc212c51" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.399">
+    <testcase name="EL STATUS RESPONDE 200" time="0.399" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="registrationp2c / VXPC CONSULTA" id="2c75a597-db34-4d3b-825e-2c69a6403d27" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.393">
+    <testcase name="EL STATUS RESPONDE 200" time="0.393" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="suppliercustomermant / WP51" id="eb51c6bf-b44d-4632-8f38-4719bbd735fa" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.301">
+    <testcase name="EL STATUS RESPONDE 200" time="0.301" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="incomemaintenancelegal / WF71" id="60a67cd7-ee66-429a-b6c5-655a9ca34292" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.480">
+    <testcase name="EL STATUS RESPONDE 200" time="0.480" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="incomemaintenancelegal / PE64" id="e60ce4f4-1997-4972-a9d6-b0cd604407cb" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.506">
+    <testcase name="EL STATUS RESPONDE 200" time="0.506" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="incomemaintenancelegal / PEAC" id="f0d4d2cf-d39a-4a49-85a1-b5cdf5188cf9" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.396">
+    <testcase name="EL STATUS RESPONDE 200" time="0.396" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="incomemaintenancelegal / PEAM" id="0c6c200f-5a77-4d01-bada-fcf3f3dd90e2" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.401">
+    <testcase name="EL STATUS RESPONDE 200" time="0.401" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="incomemaintenancelegal / PE56" id="75e0d4d9-ab0c-421d-8bdd-5ba6e783baf0" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.400">
+    <testcase name="EL STATUS RESPONDE 200" time="0.400" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="incomemaintenancelegal / PEV2" id="66bc40e9-3d7a-4333-8266-f792d5e00bf4" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.389">
+    <testcase name="EL STATUS RESPONDE 200" time="0.389" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="legalclientmanagement / WP55" id="b4404f33-895f-4b61-be0d-4878162acd40" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.305">
+    <testcase name="EL STATUS RESPONDE 200" time="0.305" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="legalclientmanagement / WP56" id="da555a5f-c058-4d2e-8bdb-fe39ed7afaa1" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.395">
+    <testcase name="EL STATUS RESPONDE 200" time="0.395" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="legalclientmanagement / WP59" id="2ec47fb4-2b87-4e40-a5eb-85d80d6e286f" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.393">
+    <testcase name="EL STATUS RESPONDE 200" time="0.393" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="legalclientmanagement / WP60" id="690ff7d1-6f02-4214-b89e-c79c48f8fccf" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.307">
+    <testcase name="EL STATUS RESPONDE 200" time="0.307" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="legalclientmanagement / WP61" id="0df79176-7ebb-404e-92d0-498f7b9c6c90" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.381">
+    <testcase name="EL STATUS RESPONDE 200" time="0.381" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="subsidiaryoffices / WP53" id="3bd240f5-de78-46a5-b634-746d837425f4" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.389">
+    <testcase name="EL STATUS RESPONDE 200" time="0.389" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="subsidiaryoffices / WP54" id="3d2312c9-2db0-4da7-8e70-2e6406a65ba5" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.405">
+    <testcase name="EL STATUS RESPONDE 200" time="0.405" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="accountcloser / B521 simulacion" id="eb72ab64-7213-4c20-9c74-077e1d49d282" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.487">
+    <testcase name="EL STATUS RESPONDE 200" time="0.487" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="registerconsignment / EX11" id="87e5ea84-8176-4019-b4e2-bd1e745d60f6" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.311">
+    <testcase name="EL STATUS RESPONDE 200" time="0.311" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="reverseconsignment / EX12" id="610d5dc7-b4cb-469a-92e3-4527c2fac75b" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.315">
+    <testcase name="EL STATUS RESPONDE 200" time="0.315" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="accountsrelations / WP70" id="ab0f4d7c-8719-41d9-84b1-371b242b8601" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.316">
+    <testcase name="EL STATUS RESPONDE 200" time="0.316" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Modulo de Gestion de Clientes / B705" id="417a3b8e-64b1-4bef-9ee1-16537d6fe22d" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.307">
+    <testcase name="EL STATUS RESPONDE 200" time="0.307" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Modulo de Gestion de Clientes / MPSE" id="cd86906a-172b-452c-baa3-0e3d6929588d" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.301">
+    <testcase name="EL STATUS RESPONDE 200" time="0.301" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Modulo de Gestion de Clientes / MPSC" id="6bb52896-16cd-40aa-ae8a-b725016870e5" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.299">
+    <testcase name="EL STATUS RESPONDE 200" time="0.299" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Modulo de Gestion de Clientes / U202" id="099eb8d7-5e40-4824-8881-9e75eaaf14bf" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.306">
+    <testcase name="EL STATUS RESPONDE 200" time="0.306" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Modulo de Gestion de Clientes / U209" id="202dc45a-47f9-45ae-9f15-9acf9811ce08" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.418">
+    <testcase name="EL STATUS RESPONDE 200" time="0.418" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Usuario Master / Token Oauth" id="1cbf99e9-f3bc-4a6f-bbcf-e834c46a8830" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.568">
+    <testcase name="EL STATUS RESPONDE 200" time="0.568" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Usuario Master / Crear usuario master" id="777c253c-83fd-4db0-8a0c-493b7b0241aa" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.330">
+    <testcase name="EL STATUS RESPONDE 200" time="0.330" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Usuario Master / Autorizar usuario master" id="805eeea6-97c4-4501-88f5-6349543e2624" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.353">
+    <testcase name="EL STATUS RESPONDE 200" time="0.353" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Usuario Master / Eliminar usuario master" id="fafd4f1f-ee34-455c-bedd-fb2e0db5fcfa" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.395">
+    <testcase name="EL STATUS RESPONDE 200" time="0.395" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Usuario Master / Activar usuario master" id="5134324e-01fd-47a5-b5af-d3790cf17bbb" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.186">
+    <testcase name="EL STATUS RESPONDE 200" time="0.186" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Usuario Master / Activar usuario master.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:138).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Usuario Master / Consulta usuario master" id="8efb6c45-1e7b-4f28-b2bf-654b15e09b2d" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.402">
+    <testcase name="EL STATUS RESPONDE 200" time="0.402" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Usuario Master / Crear empresas" id="52a736c1-8788-4a16-b67b-6dadb9efdac1" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.304">
+    <testcase name="EL STATUS RESPONDE 200" time="0.304" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Usuario Master / Modificar empresas" id="fcb2becc-678f-407c-8db4-0d43599f21b0" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.372">
+    <testcase name="EL STATUS RESPONDE 200" time="0.372" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Usuario Master / Consulta empresas" id="4b53bdc7-5828-444f-882b-ea811e9045d1" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.391">
+    <testcase name="EL STATUS RESPONDE 200" time="0.391" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="profitability / Rentabilidad" id="4e7a71c6-9c6a-4ca6-9a26-005a656ce671" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="4.437">
+    <testcase name="EL STATUS RESPONDE 200" time="4.437" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="exchangeratequery / EXTC" id="2c2146fb-1ca6-4daa-9fff-2ea5e68670e3" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.344">
+    <testcase name="EL STATUS RESPONDE 200" time="0.344" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: exchangeratequery / EXTC.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:144).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="BDV APP DIGITAL / verificacion cliente cuenta digital" id="eb144f55-ddbf-4e1c-a2bb-6bd5a5dffae3" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.493">
+    <testcase name="EL STATUS RESPONDE 200" time="0.493" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="BDV APP DIGITAL / consultarUsuarioUnico" id="5df5a487-ad19-4589-a39a-38280057d166" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.397">
+    <testcase name="EL STATUS RESPONDE 200" time="0.397" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="BDV APP DIGITAL / Consultar Vinculaciones BDV APP" id="545a88a6-a62f-4841-99ef-6d89a872f7cc" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.902">
+    <testcase name="EL STATUS RESPONDE 200" time="0.902" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="seguridad / Factores" id="d356f4bc-aa26-4175-9d3f-7bf40c1fbcff" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.500">
+    <testcase name="EL STATUS RESPONDE 200" time="0.500" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: seguridad / Factores.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:148).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="seguridad / ValidaFactores" id="ac2c721e-7817-4e0f-b809-9db56aed529c" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.388">
+    <testcase name="EL STATUS RESPONDE 200" time="0.388" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: seguridad / ValidaFactores.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:149).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="cardhandling / MPWW" id="ed0e5d88-0745-4aab-a30a-77e152469d81" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.392">
+    <testcase name="EL STATUS RESPONDE 200" time="0.392" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="SMS / get factores" id="2b5b334d-a353-4da8-9d9a-c839039d4d01" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.501">
+    <testcase name="EL STATUS RESPONDE 200" time="0.501" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="SMS / validate-factores" id="7c1db19d-f464-4842-bbe5-61ceda6b1e2f" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 180.183.170.107:30015
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+
+---
+]]></system-err>
+    <testcase name="EL STATUS RESPONDE 200" time="0.000" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: SMS / validate-factores.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:152).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Consulta de Saldo y Movimiento / BCMO" id="3c721cbd-0a1b-4bd8-b7b4-17415f3a2a61" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.644">
+    <testcase name="EL STATUS RESPONDE 200" time="0.644" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Consulta de Saldo y Movimiento / BCSA" id="a1334ace-c36e-4f74-a3fa-b9b130247831" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.395">
+    <testcase name="EL STATUS RESPONDE 200" time="0.395" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="P2P / Consulta de datos de cliente" id="e78e3342-e31b-4730-8e2e-b09fbc74a373" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 180.183.170.77:30324
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+
+---
+]]></system-err>
+    <testcase name="EL STATUS RESPONDE 200" time="0.000" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: P2P / Consulta de datos de cliente.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:155).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="P2P / Afiliación de cliente a P2P" id="f8ea264c-dc86-41da-a52b-ca2c420d1e32" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 180.183.170.77:30324
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+
+---
+]]></system-err>
+    <testcase name="EL STATUS RESPONDE 200" time="0.000" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: P2P / Afiliación de cliente a P2P.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:156).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="P2P / Servicio&#x9;Actualización de teléfono de cliente" id="27d80d85-2000-48af-9a70-aa57e65a5d27" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 180.183.170.107:31478
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+
+---
+]]></system-err>
+    <testcase name="EL STATUS RESPONDE 200" time="0.000" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: P2P / Servicio	Actualización de teléfono de cliente.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:157).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="P2P / Consulta de parámetros por defecto del producto" id="7d4fc808-20f3-4d29-a5a6-89c99d93a0f7" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 180.183.170.107:31478
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+
+---
+]]></system-err>
+    <testcase name="EL STATUS RESPONDE 200" time="0.000" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: P2P / Consulta de parámetros por defecto del producto.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:158).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="P2C / Afiliación de cliente a P2C" id="85d70daa-d1df-4d9b-b322-80cc8c1a2495" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.975">
+    <testcase name="EL STATUS RESPONDE 200" time="0.975" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="P2C / Obtener usuario afiliado a P2C" id="c2ce1345-3ac5-47a2-9fb9-b9fc016930cf" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.321">
+    <testcase name="EL STATUS RESPONDE 200" time="0.321" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="P2C / Obtener cliente único" id="c6300be6-faed-4f80-9969-26b9371fc7eb" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.328">
+    <testcase name="EL STATUS RESPONDE 200" time="0.328" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="P2C / Delete User P2C" id="1b6098cf-902b-4590-b8d0-e17357253181" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.354">
+    <testcase name="EL STATUS RESPONDE 200" time="0.354" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="P2C / Eliminar todos los usuarios afiliados a la empresa y la misma" id="27b713c2-2137-4813-9ea1-147cacd2e69a" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.543">
+    <testcase name="EL STATUS RESPONDE 200" time="0.543" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Servicio datos convenios / obtenerCategoria" id="180a4aa3-1bc2-4140-880b-9f92744fdfdf" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.603">
+    <testcase name="EL STATUS RESPONDE 200" time="0.603" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Servicio datos convenios / obtenerDatosFinancieros" id="bf5090e0-21e3-40af-8aba-7ee6b78f4904" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.493">
+    <testcase name="EL STATUS RESPONDE 200" time="0.493" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Servicio datos convenios / obtenerDatosConvenio" id="45620bf2-c41b-434a-9b46-b71d4374b8c7" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.397">
+    <testcase name="EL STATUS RESPONDE 200" time="0.397" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Servicio datos convenios / obtenerListaConvenios" id="4eac4f04-654c-45e4-b66c-4b4fe7784c10" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.402">
+    <testcase name="EL STATUS RESPONDE 200" time="0.402" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Firmas / crearpersona" id="964b05a2-28c9-4c44-8e64-75ad1350924c" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.603">
+    <testcase name="EL STATUS RESPONDE 200" time="0.603" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 201">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Firmas / crearpersona.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 201.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 201
+   at Object.eval sandbox-script.js:1:168).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Firmas / crearfirmante" id="ec99fd17-2f73-4fc0-ac8d-d08ea3b7dbd5" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="2.731">
+    <testcase name="EL STATUS RESPONDE 200" time="2.731" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 201">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Firmas / crearfirmante.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 201.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 201
+   at Object.eval sandbox-script.js:1:169).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Firmas / crearproducto" id="6941a35f-1016-40d7-b7a4-734e6889a0e5" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.504">
+    <testcase name="EL STATUS RESPONDE 200" time="0.504" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 201">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Firmas / crearproducto.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 201.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 201
+   at Object.eval sandbox-script.js:1:170).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Firmas / crearsello" id="3cd0c823-6a0c-499b-a991-f4413b092e24" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="1.420">
+    <testcase name="EL STATUS RESPONDE 200" time="1.420" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 201">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Firmas / crearsello.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 201.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 201
+   at Object.eval sandbox-script.js:1:171).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Firmas / crearregla" id="a385d447-05e4-4f32-9248-453ef1d069e4" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.497">
+    <testcase name="EL STATUS RESPONDE 200" time="0.497" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 201">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Firmas / crearregla.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 201.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 201
+   at Object.eval sandbox-script.js:1:172).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Firmas / eliminarpersona" id="9af4a119-e484-4947-96c3-fb571754b085" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.390">
+    <testcase name="EL STATUS RESPONDE 200" time="0.390" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Firmas / eliminarpersona.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:173).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Firmas / eliminarfirmante" id="bb3ceecd-ce14-4a12-8afb-bbea8433d205" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.499">
+    <testcase name="EL STATUS RESPONDE 200" time="0.499" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 500">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Firmas / eliminarfirmante.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 500.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 500
+   at Object.eval sandbox-script.js:1:174).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Firmas / eliminarsello" id="da48808b-b81e-40a6-9734-275fe051b31d" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.397">
+    <testcase name="EL STATUS RESPONDE 200" time="0.397" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 204">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Firmas / eliminarsello.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 204.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 204
+   at Object.eval sandbox-script.js:1:175).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Firmas / eliminarregla" id="b8bd6de4-24aa-4163-b404-743861585477" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.194">
+    <testcase name="EL STATUS RESPONDE 200" time="0.194" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Firmas / eliminarregla.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:176).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Firmas / getCuenta" id="d7bdb7ce-a067-43d1-bddf-4b62c646b9f4" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.476">
+    <testcase name="EL STATUS RESPONDE 200" time="0.476" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Firmas / getFirmates" id="6b4657a6-79e8-423b-ab54-4fc272cb767c" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.512">
+    <testcase name="EL STATUS RESPONDE 200" time="0.512" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Firmas / getSellos" id="2bfc4c22-c102-4bbb-8afa-06e7817fe83c" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.504">
+    <testcase name="EL STATUS RESPONDE 200" time="0.504" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Firmas / getCondiciones" id="a6354f9a-60a1-4dff-858d-292afddcf1a2" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.495">
+    <testcase name="EL STATUS RESPONDE 200" time="0.495" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Firmas / getCondiciones.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:180).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Firmas / getImagenFirma" id="231140e0-5817-4a08-bd26-afcf1b5db535" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.397">
+    <testcase name="EL STATUS RESPONDE 200" time="0.397" classname="ZJsonConsolidado"/>
+  </testsuite>
+  <testsuite name="Firmas / getTblCheque" id="f88f74a8-9114-4741-933f-54212917ee21" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.589">
+    <testcase name="EL STATUS RESPONDE 200" time="0.589" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 403">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Firmas / getTblCheque.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 403.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 403
+   at Object.eval sandbox-script.js:1:182).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Firmas / saveTblCheque" id="58348f98-bf4d-480c-bb08-09ff6740dad8" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.591">
+    <testcase name="EL STATUS RESPONDE 200" time="0.591" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 403">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Firmas / saveTblCheque.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 403.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 403
+   at Object.eval sandbox-script.js:1:183).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Firmas / chequesConsultar" id="8a586815-c667-41d7-adee-34233c01a676" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="1" errors="0" time="0.497">
+    <testcase name="EL STATUS RESPONDE 200" time="0.497" classname="ZJsonConsolidado">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 403">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 3aa48f7d-a11e-4ffb-b706-88c68de96480.]]>
+        <![CDATA[Collection name: Z-JSON-CONSOLIDADO.]]>
+        <![CDATA[Request name: Firmas / chequesConsultar.]]>
+        <![CDATA[Test description: EL STATUS RESPONDE 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 403.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 403
+   at Object.eval sandbox-script.js:1:184).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Firmas / authenticate" id="37f5fc5c-0141-439a-97a1-2555ea5182a6" timestamp="2023-11-22T21:56:41.682Z" tests="1" failures="0" errors="0" time="0.513">
+    <testcase name="EL STATUS RESPONDE 200" time="0.513" classname="ZJsonConsolidado"/>
+  </testsuite>
+</testsuites>

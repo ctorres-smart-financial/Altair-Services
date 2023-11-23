@@ -1,0 +1,160 @@
+:root {
+    --success-icon-color: #FFFFFF;
+    --warning-icon-color: #6a1a21;
+}
+
+.icon-lr {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+#confirmMessage {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 150px;
+}
+
+.loading-icon {
+    position: absolute;
+    top: 240px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.lr-header-info {
+    flex-direction: row !important;
+}
+
+.lr-stats {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.lr-text-body {
+    text-align: left;
+}
+
+.nav-link:hover {
+    border: #000 1px solid;
+}
+
+.report-item {
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+}
+
+footer > div > div > div > div > ul > li > a:hover {
+    text-decoration: underline !important;
+}
+
+@media (max-width: 730px) {
+    .lr-container {
+        width: 80%;
+    }
+
+    .lr-icon-container {
+        margin-top: 23px !important;
+    }
+
+    #confirmMessage {
+        top: 130px;
+    }
+
+    .see-lr {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 538px) {
+    .navbar-anchors {
+       display: none !important;
+    }
+
+    .navbar-menu {
+        display: block !important;
+        width: 80px !important;
+    }
+}
+
+@media (max-width: 495px) {
+    /* Last Report */
+    .card, .card-header {
+        border-radius: 0 !important;
+    }
+
+    .lr-header-info {
+        flex-direction: column !important;
+    }
+
+    #statusLastReport {
+        float: right;
+    }
+
+    .lr-stats {
+        flex-direction: column !important;
+        height: 100% !important;
+        width: 100% !important;
+        gap: 0 !important;
+    }
+
+    .card-body {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 10px;
+    }
+
+    .lr-text-body {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .see-lr {
+        margin-top: 20px;
+        justify-self: center !important;
+        width: 100%;
+    }
+
+    /* Report History */
+    .report-item {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center;
+        padding: 0 !important;
+    }
+
+    .report-item a {
+        margin-bottom: 1rem;
+    }
+
+    .report-item div {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    /* Footer */
+
+    .footer-anchors {
+        width: 60% !important;
+    }
+
+    .footer-version {
+        flex-direction: column !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        vertical-align: top;
+    }
+
+    .footer-version p {
+        padding-top: 0.65rem !important;
+    }
+}
